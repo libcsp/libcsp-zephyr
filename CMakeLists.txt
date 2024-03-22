@@ -8,4 +8,5 @@ project(speq)
 target_sources(app PRIVATE
   src/main.c
   src/buffer.c
+  src/crc32.c
 )
