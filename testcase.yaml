@@ -2,5 +2,5 @@ tests:
   libcsp.subsec:
     integration_platforms:
       - qemu_cortex_m3
-      - mps2_an385
+      - mps2/an385
     tags: libcsp
