@@ -7,6 +7,12 @@
 #include <zephyr/ztest.h>
 #include <csp/csp.h>
 
+/* csp_buffer_get_always() is now an internal function
+ * and not exposed in the public API, so we need to
+ * declare it here for testing purposes.
+ */
+csp_packet_t * csp_buffer_get_always(void);
+
 static void *setup(void)
 {
 	csp_init();
